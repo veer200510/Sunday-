@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Satyaveer Sharma | Portfolio</title>
+  <style>
+    /* Reset */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #0d1117;
+      color: #e6edf3;
+      line-height: 1.6;
+    }
+
+    header {
+      background: #161b22;
+      padding: 30px 0;
+      text-align: center;
+      border-bottom: 2px solid #30363d;
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+      color: #58a6ff;
+    }
+
+    header p {
+      font-size: 1.1rem;
+      color: #8b949e;
+    }
+
+    nav {
+      margin-top: 15px;
+    }
+
+    nav a {
+      color: #e6edf3;
+      margin: 0 12px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: color 0.3s ease;
+    }
+
+    nav a:hover {
+      color: #58a6ff;
+    }
+
+    section {
+      padding: 50px 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    .card {
+      background: #161b22;
+      padding: 25px;
+      margin: 25px 0;
+      border-radius: 12px;
+      box-shadow: 0px 4px 10px rgba(0,0,0,0.4);
+      transition: transform 0.3s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+    }
+
+    h2 {
+      color: #58a6ff;
+      margin-bottom: 15px;
+    }
+
+    ul {
+      list-style: none;
+    }
+
+    ul li {
+      margin: 8px 0;
+      padding-left: 20px;
+      position: relative;
+    }
+
+    ul li::before {
+      content: "✔";
+      position: absolute;
+      left: 0;
+      color: #58a6ff;
+    }
+
+    a {
+      color: #58a6ff;
+    }
+
+    footer {
+      text-align: center;
+      background: #161b22;
+      color: #8b949e;
+      padding: 20px 0;
+      border-top: 2px solid #30363d;
+      margin-top: 30px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Satyaveer Sharma</h1>
+    <p>BCA Student | Aspiring Data Scientist | Tech Enthusiast</p>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#achievements">Achievements</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section id="about">
+    <div class="card">
+      <h2>About Me</h2>
+      <p>Hello! I’m <b>Satyaveer Sharma</b>, a first-year BCA student at DGC Gurugram.  
+      I have a background in <b>PCM</b> and an IT Level 4 NSQF certification.  
+      I’m passionate about <b>Data Science, Programming, and Web Development</b>.  
+      Currently, I’m learning to build projects and grow my portfolio.</p>
+    </div>
+  </section>
+
+  <section id="skills">
+    <div class="card">
+      <h2>Skills</h2>
+      <ul>
+        <li>Programming: Python, C, HTML, CSS</li>
+        <li>Data Science (beginner)</li>
+        <li>Web Development Basics</li>
+        <li>Git & GitHub</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="achievements">
+    <div class="card">
+      <h2>Achievements</h2>
+      <ul>
+        <li>Admitted to BCA at DGC Gurugram (2025)</li>
+        <li>Completed IT Level 4 NSQF Certificate</li>
+        <li>Appeared for CUET UG 2025</li>
+        <li>Created lofi music projects for YouTube</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="card">
+      <h2>Contact</h2>
+      <p>Email: <a href="mailto:satyaveer@example.com">satyaveer@example.com</a></p>
+      <p>GitHub: <a href="https://github.com/yourusername" target="_blank">github.com/yourusername</a></p>
+      <p>Location: Haryana, India</p>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 Satyaveer Sharma | Portfolio</p>
+  </footer>
+
+</body>
+</html>
